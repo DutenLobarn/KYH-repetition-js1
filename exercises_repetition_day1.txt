@@ -1,0 +1,97 @@
+DAG 1 – Funktioner, Events, DOM & Loopar
+
+Syfte: Avslöja hur studenter tänker kring flöde, struktur och UI-logik.
+
+🔹 NIVÅ 1 – Event + funktion (basdiagnos)
+Uppgift: Klickräknare
+
+Bygg allt från scratch.
+
+Krav:
+
+Skapa en knapp i HTML
+
+När man klickar på knappen:
+
+ska en funktion köras
+
+räknaren ska öka med 1
+
+värdet ska visas i DOM
+
+Regler:
+
+Funktionen ska vara separat
+
+Ingen kod direkt i eventet
+
+console.log är tillåtet
+
+Diagnostiserar:
+
+Kan de skriva en funktion själva?
+
+Förstår de event listeners?
+
+Förstår de vad som körs när?
+
+---
+
+🔹 NIVÅ 2 – DOM + loop
+Uppgift: Lista med namn
+
+All HTML skapas via JavaScript.
+
+Krav:
+
+Skapa en array med minst 5 namn
+
+När man klickar på en knapp:
+
+loopa igenom arrayen
+
+rendera varje namn i en lista i DOM
+
+Listan ska tömmas innan ny rendering
+
+Extra (om de hinner):
+
+Lägg till index framför namnet
+
+Diagnostiserar:
+
+Loop-förståelse
+
+DOM-manipulation
+
+Om de blandar logik + rendering
+
+---
+
+🔹 NIVÅ 3 – Kombinerad UI-logik
+Uppgift: Enkel filterfunktion
+
+Bygg helt själv.
+
+Krav:
+
+Skapa en array med objekt:
+
+[{ name: "Anna", age: 25 }, ...]
+
+
+Inputfält + knapp
+
+När man klickar:
+
+filtrera fram personer över viss ålder
+
+rendera resultatet i DOM
+
+Diagnostiserar:
+
+Villkorslogik
+
+Array-metoder vs loop
+
+Separation av ansvar (data / logik / DOM)
