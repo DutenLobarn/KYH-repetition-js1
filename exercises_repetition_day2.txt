@@ -1,97 +1,69 @@
-DAG 2 – Objekt & Asynkron JavaScript
+# Dag 2 – Objekt & Asynkron JavaScript
 
-Syfte: Avslöja abstrakt tänkande, dataflöde och async-förståelse.
+**Syfte:** Avslöja abstrakt tänkande, dataflöde och async-förståelse.
 
-🔹 NIVÅ 1 – Objekt & metoder
-Uppgift: Person-objekt
+---
 
-Bygg från scratch.
+## Nivå 1 – Objekt & metoder
+### Uppgift: Person-objekt
 
-Krav:
+### Krav
+- Skapa ett objekt med:
+  - namn
+  - ålder
+  - metod som returnerar:
+    > “Hej, jag heter X och är Y år”
+- Visa resultatet i DOM via knapp
 
-Skapa ett objekt med:
+### Diagnostiserar
+- Objektstruktur
+- Metod vs funktion
+- Return vs console.log
 
-namn
+---
 
-ålder
+## Nivå 2 – Asynkron data (fetch)
+### Uppgift: Hämta data från API
 
-metod som returnerar en sträng:
+Exempel: https://jsonplaceholder.typicode.com/users
 
-“Hej, jag heter X och är Y år”
+### Krav
+- Hämta data
+- Vänta på svaret
+- Rendera namn i DOM
+- Använd `async/await` eller `.then()`
 
-Visa resultatet i DOM via knapp
+### Diagnostiserar
+- Async-förståelse
+- Promise-flöde
+- Timing
 
-Diagnostiserar:
+---
 
-Förstår de objektstruktur?
+## Nivå 3 – Dataflöde + DOM + event
+### Uppgift: Interaktiv API-lista
 
-Metod vs funktion?
+### Krav
+- Hämta data
+- Rendera lista
+- Vid klick:
+  - visa mer information om vald post
+- Undvik global data
 
-Return vs console.log?
+### Diagnostiserar
+- Dataflöde
+- State-tänk
+- Event + async i kombination
 
-🔹 NIVÅ 2 – Asynkron data (fetch)
-Uppgift: Hämta data från API
+---
 
-Använd valfritt öppet API, t.ex.:
+## Hur du använder övningarna diagnostiskt
+- Nivå 1 dag 1 → brist på JS-grunder
+- Nivå 2 dag 1 → DOM/loopar svagt
+- Nivå 1 dag 2 → objektförståelse saknas
+- Nivå 2 dag 2 → async ej befäst
 
-https://jsonplaceholder.typicode.com/users
+### Viktigt att säga kontinuerligt
+> “Det är helt okej att inte hinna nivå 3.”  
+> “Jag tittar mer på hur ni tänker än vad ni hinner.”
 
-Krav:
-
-Hämta data
-
-Vänta på svaret
-
-Rendera namn i DOM
-
-Använd async/await eller .then()
-
-Diagnostiserar:
-
-Förstår de async?
-
-Förstår de när data finns?
-
-Promise-flöde
-
-🔹 NIVÅ 3 – Dataflöde + DOM + event
-Uppgift: Interaktiv API-lista
-
-Bygg allt själv.
-
-Krav:
-
-Hämta data från API
-
-Rendera lista
-
-När man klickar på ett objekt:
-
-visa mer info om just den posten
-
-Ingen global data-missbruk
-
-Diagnostiserar:
-
-Dataflöde
-
-State-tänk (även utan React)
-
-Event + async i kombination
-
-🧠 HUR DU ANVÄNDER ÖVNINGARNA DIAGNOSTISKT
-Om många fastnar på:
-
-Nivå 1 dag 1 → brist på JS-grunder
-
-Nivå 2 dag 1 → DOM + loopar svagt
-
-Nivå 1 dag 2 → objektförståelse saknas
-
-Nivå 2 dag 2 → async EJ befäst i JS1
-
-❗ Viktigt du säger kontinuerligt
-
-“Det är helt okej att inte hinna nivå 3.”
-
-“Jag tittar mer på hur ni tänker än vad ni hinner.”
