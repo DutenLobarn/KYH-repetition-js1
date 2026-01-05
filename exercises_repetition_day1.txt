@@ -7,7 +7,7 @@
 ## Nivå 1 – Event + funktion (basdiagnos)
 ### Uppgift: Klickräknare
 
-**Bygg allt från scratch. (Ingen hjälp av AI)**
+**Bygg allt från scratch. (Ingen hjälp av AI under repetitionen)**
 
 ### Krav
 - Skapa en knapp i HTML
@@ -55,7 +55,8 @@
 
 ### Krav
 - Skapa en array med objekt:
-  { name: "Anna", age: 25 }
+```js
+{ name: "Anna", age: 25 }
 - Inputfält + knapp
 - Vid klick:
   - filtrera fram personer över viss ålder
