@@ -1,97 +1,67 @@
-DAG 1 – Funktioner, Events, DOM & Loopar
+# Dag 1 – Funktioner, Events, DOM & Loopar
 
-Syfte: Avslöja hur studenter tänker kring flöde, struktur och UI-logik.
-
-🔹 NIVÅ 1 – Event + funktion (basdiagnos)
-Uppgift: Klickräknare
-
-Bygg allt från scratch.
-
-Krav:
-
-Skapa en knapp i HTML
-
-När man klickar på knappen:
-
-ska en funktion köras
-
-räknaren ska öka med 1
-
-värdet ska visas i DOM
-
-Regler:
-
-Funktionen ska vara separat
-
-Ingen kod direkt i eventet
-
-console.log är tillåtet
-
-Diagnostiserar:
-
-Kan de skriva en funktion själva?
-
-Förstår de event listeners?
-
-Förstår de vad som körs när?
+**Syfte:** Avslöja hur studenter tänker kring flöde, struktur och UI-logik.
 
 ---
 
-🔹 NIVÅ 2 – DOM + loop
-Uppgift: Lista med namn
+## Nivå 1 – Event + funktion (basdiagnos)
+### Uppgift: Klickräknare
 
-All HTML skapas via JavaScript.
+**Bygg allt från scratch. (Ingen hjälp av AI)**
 
-Krav:
+### Krav
+- Skapa en knapp i HTML
+- Vid klick:
+  - en funktion körs
+  - räknaren ökar med 1
+  - värdet visas i DOM
 
-Skapa en array med minst 5 namn
+### Regler
+- Funktionen ska vara separat
+- Ingen kod direkt i event-lyssnaren
+- `console.log` är tillåtet
 
-När man klickar på en knapp:
-
-loopa igenom arrayen
-
-rendera varje namn i en lista i DOM
-
-Listan ska tömmas innan ny rendering
-
-Extra (om de hinner):
-
-Lägg till index framför namnet
-
-Diagnostiserar:
-
-Loop-förståelse
-
-DOM-manipulation
-
-Om de blandar logik + rendering
+### Diagnostiserar
+- Kan de skriva funktioner själva?
+- Förstår de event listeners?
+- Förstår de när kod körs?
 
 ---
 
-🔹 NIVÅ 3 – Kombinerad UI-logik
-Uppgift: Enkel filterfunktion
+## Nivå 2 – DOM + loop
+### Uppgift: Lista med namn
 
-Bygg helt själv.
+**All HTML skapas via JavaScript.**
 
-Krav:
+### Krav
+- Skapa en array med minst 5 namn
+- Vid klick:
+  - loopa igenom arrayen
+  - rendera varje namn i DOM
+- Listan ska tömmas före ny rendering
 
-Skapa en array med objekt:
+### Extra
+- Visa index framför namnet
 
-[{ name: "Anna", age: 25 }, ...]
+### Diagnostiserar
+- Loop-förståelse
+- DOM-manipulation
+- Blandning av logik och rendering
 
+---
 
-Inputfält + knapp
+## Nivå 3 – Kombinerad UI-logik
+### Uppgift: Enkel filterfunktion
 
-När man klickar:
+### Krav
+- Skapa en array med objekt:
+  { name: "Anna", age: 25 }
+- Inputfält + knapp
+- Vid klick:
+  - filtrera fram personer över viss ålder
+  - rendera resultatet i DOM
 
-filtrera fram personer över viss ålder
-
-rendera resultatet i DOM
-
-Diagnostiserar:
-
-Villkorslogik
-
-Array-metoder vs loop
-
-Separation av ansvar (data / logik / DOM)
+### Diagnostiserar
+- Villkorslogik
+- Array-metoder vs loop
+- Separation av ansvar (data / logik / DOM)
