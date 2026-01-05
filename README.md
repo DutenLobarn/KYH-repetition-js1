@@ -1,47 +1,96 @@
-# KYH-repetition-js1
+# KYH – Repetition JavaScript 1
 
-Två diagnostiska repetitionslektioner baserade på tidigare kurser.
+Detta repository innehåller två diagnostiska repetitionslektioner inför kursen **JavaScript 2**.
 
-## Varför dessa lektioner?
-- För att diagnostisera studenternas faktiska kunskapsnivå utifrån tidigare kurser.
-- För att identifiera kunskapsluckor och områden som inte har befästs eller hunnit läras ordentligt.
-- För att säkerställa att alla studenter får möjlighet att nå en stabil grundnivå inför kursen JavaScript 2.
+Syftet är att, vid lärarbyte och varierande förkunskaper, skapa en trygg och strukturerad start genom att identifiera:
+- studenternas faktiska kunskapsnivå
+- kunskapsluckor från tidigare kurser
+- områden som behöver förstärkas innan JavaScript 2 påbörjas
 
-> Dessa lektioner är inte ett test.  
-> De är ett sätt för mig att förstå hur ni tänker och hur jag kan hjälpa er på bästa sätt.
-
----
-
-## Lektionsstruktur (båda dagarna)
-
-### Steg 1 – Introduktion (30 min)
-- Förklara syftet med repetitionen och upplägget för de två lektionerna.
-- Kort AI-genomgång (10–15 min):  
-  **AI som hjälpmedel vs genväg** – varför jag vill se er nuvarande nivå utan AI-stöd.
-- Tydliggörande:
-  *“Det här är inte ett prov – det är ett sätt för mig att hjälpa er rätt.”*
+> Repetitionslektionerna är **inte tester**.  
+> De används för att förstå **hur studenter tänker**, inte bara vad de kan reproducera.
 
 ---
 
-### Steg 2 – Individuella repetitionsövningar (90 min)
-- Övningar i tre nivåer: **lätt / medel / svår**
-- Studenterna arbetar **individuellt**.
-- Instruktion:
-  *“Fastnar du på nivå 1 – räck upp handen direkt.”*
+## Pedagogiskt syfte
+Repetitionerna är:
+- diagnostiska
+- individbaserade
+- flexibla i tempo och innehåll
+- anpassningsbara i realtid utifrån studenternas behov
+
+Fokus ligger på **tankeprocesser**, inte på att “lösa uppgifter snabbt eller rätt”.
 
 ---
 
-### Steg 3 – Uppsamling & reflektion (15 min)
-- Mentimeter:
-  - Vad kändes svårast?
-  - Vad vill ni att jag visar i en code-along?
+## Övergripande struktur
+
+Repetitionerna genomförs under två heldagar och följer samma grundstruktur:
+
+1. Introduktion & ramsättning
+2. Individuella repetitionsövningar (3 nivåer)
+3. Reflektion & återkoppling
+4. Flexibelt avslut (code-along vid behov)
 
 ---
 
-### Steg 4 – Flexibelt avslut
-- Antingen:
-  - Code-along baserat på studenternas behov
-  - Eller fortsatt individuellt arbete
+## Pedagogisk ordning (viktig)
+Ämnena behandlas i följande ordning:
+
+**Event → DOM → Loopar → Objekt → Asynkronitet**
+
+Asynkron JavaScript placeras sist för att minska kognitiv belastning.
+
+---
+
+## Innehåll per dag
+
+### Dag 1 – Synkront tänkande & UI-logik
+**Fokus:**
+- Grundläggande JavaScript-flöden
+- Funktioner och event listeners
+- DOM-manipulation
+- Loopar och kontrollflöde
+
+Målet är att identifiera brister i grundläggande logik, flödestänk och interaktion.
+
+📁 Detaljerad planering och övningar finns i:
+- `lesson-1/README.md`
+- `lesson-1/exercises_repetition_day1.txt`
+
+---
+
+### Dag 2 – Struktur & asynkronitet
+**Fokus:**
+- Objekt och metoder
+- Repetition av funktioner
+- Asynkron JavaScript (fetch / promises)
+- Dataflöden och DOM-rendering
+
+Målet är att identifiera förståelse för data, timing och struktur.
+
+📁 Detaljerad planering och övningar finns i:
+- `lesson-2/README.md`
+- `lesson-2/exercises_repetition_day2.txt`
+
+---
+
+## Viktigt för studenter
+- Det är okej att fastna.
+- Det är okej att inte hinna alla nivåer.
+- Det viktiga är **hur du tänker**, inte hur snabbt du blir klar.
+
+---
+
+## Användning av detta repo
+- **Main-branch:** Översikt och struktur
+- **lesson-1:** Full planering och övningar för dag 1
+- **lesson-2:** Full planering och övningar för dag 2
+
+Detta repo fungerar både som:
+- planeringsunderlag för lärare
+- transparens mot utbildningsledning
+- dokumentation inför kursstart JavaScript 2
 
 ---
 
@@ -53,61 +102,12 @@ Två diagnostiska repetitionslektioner baserade på tidigare kurser.
 - 14% Objekt & metoder
 - 4% Grundläggande datatyper
 
-**Notera:**  
-Procentfördelningen är användbar, men ordningen ska **inte** följas rakt av.
-
-### Pedagogisk grundprincip:
-**Event → DOM → Loopar → Objekt → Asynkronitet**
-
-Asynkron JavaScript kommer sist.
-
----
-
-## Dag 1 – Synkront tänkande & UI-logik
-**Fokus:** Grundläggande JavaScript-flöde och interaktion
-
-### Ämnen:
-- (Kort) datatyper, variabler, arrayer
-- Funktioner
-- Event listeners
-- DOM-manipulation
-- Loopar och kontrollflöde
-
-**Exempelövning:**
-> Klick → loopa array → rendera DOM
-
-**Varför detta fokus?**
-- Det är konkret och lätt att relatera till
-- Det visar snabbt vem som:
-  - inte förstår scope
-  - har svårt med loopar
-  - inte förstår eventflöden
-
----
-
-## Dag 2 – Struktur & asynkronitet
-**Fokus:** Tänka i objekt och dataflöden
-
-### Ämnen:
-- Objekt & metoder
-- Kort repetition av funktioner
-- Asynkron JavaScript (callbacks / promises)
-- Enkel fetch + DOM + event
-
-**Exempelövning:**
-> Objekt → fetch → rendera → event
-
-**Varför detta fokus?**
-- Objektförståelse krävs för att hantera async-data
-- Asynkronitet dag 2 ger:
-  - lugnare tempo
-  - bättre förståelse
-  - mindre stress
+Dessa önskemål ligger till grund för innehållet,  
+men behandlas enligt den pedagogiska ordning som beskrivs ovan.
 
 ---
 
 ## Viktigt att komma ihåg under repetitionslektionerna
-
 - **“Just nu är det inte viktigt att lösa allt rätt – det viktiga är att jag ser hur ni tänker.”**
 - **“Fastnar du → räck upp handen direkt. Vänta inte.”**
 
