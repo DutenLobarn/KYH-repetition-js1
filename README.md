@@ -35,17 +35,6 @@
 
 ---
 
-## Vad du observerar
-- Vilka ställer frågor?
-- Vilka verkar stressade?
-- Vilka lutar sig tillbaka direkt?
-
-## Vad du antecknar
-- Namn + första intryck (kort)
-- Generell stämning i gruppen
-
----
-
 ## 09:00–10:30 – Individuella repetitionsövningar (90 min)
 
 ### Innehåll
@@ -65,7 +54,6 @@
 ### Funktioner
 - Skriver de funktioner eller allt inline?
 - Förstår de parametrar?
-- Return vs side effects?
 
 ### Event
 - Kopplar de event korrekt?
