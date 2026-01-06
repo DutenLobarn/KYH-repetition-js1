@@ -25,7 +25,7 @@ Fokus ligger på **tankeprocesser**, inte på att “lösa uppgifter snabbt elle
 
 ## Övergripande struktur
 
-Repetitionerna genomförs under två heldagar och följer samma grundstruktur:
+Repetitionerna genomförs under två lektioner och följer samma grundstruktur:
 
 1. Introduktion & ramsättning
 2. Individuella repetitionsövningar (3 nivåer)
