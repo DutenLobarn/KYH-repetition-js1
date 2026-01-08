@@ -31,7 +31,7 @@
 ## Nivå 2 – DOM + loop
 ### Uppgift: Lista med namn
 
-**All HTML skapas via JavaScript.**
+** (Nästan) All HTML skapas via JavaScript.**
 
 ### Krav
 - Skapa en array med minst 5 namn
